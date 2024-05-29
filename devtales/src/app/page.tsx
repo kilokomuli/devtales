@@ -1,6 +1,8 @@
 // import { lusitana } from "./ui/fonts";
 import Navbar from './ui/navbar';
 import Hero from './ui/hero';
+import Footer from './ui/footer';
+
 
 export default function Home() {
   return (
@@ -32,6 +34,7 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <Footer />
     </div>
   );
 }
