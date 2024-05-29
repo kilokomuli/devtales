@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      <div className="pt-24"> {/* Adjust this padding to the height of your navbar */}
+      <div className="pt-24">
         <Hero />
         <section id="featured" className="py-20">
           <div className="max-w-7xl mx-auto px-6">
