@@ -1,17 +1,37 @@
 // import { lusitana } from "./ui/fonts";
-import Link from 'next/link';
 import Navbar from './ui/navbar';
+import Hero from './ui/hero';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col p-6 items-start">
-      <div className="flex flex-col md:flex-row md:h-52 p-4 justify-between w-full mt-0">
-        <Navbar />
+    <div>
+      <Navbar />
+      <div className="pt-24"> {/* Adjust this padding to the height of your navbar */}
+        <Hero />
+        <section id="featured" className="py-20">
+          <div className="max-w-7xl mx-auto px-6">
+            <h2 className="text-4xl font-bold text-gray-900 mb-8">Featured Articles</h2>
+            {/* Placeholder for featured articles */}
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-bold mb-2">Article 1</h3>
+                <p className="text-gray-700 mb-4">Description of the first featured article.</p>
+                <a href="#" className="text-blue-500 hover:underline">Read more</a>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-bold mb-2">Article 2</h3>
+                <p className="text-gray-700 mb-4">Description of the second featured article.</p>
+                <a href="#" className="text-blue-500 hover:underline">Read more</a>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-lg">
+                <h3 className="text-2xl font-bold mb-2">Article 3</h3>
+                <p className="text-gray-700 mb-4">Description of the third featured article.</p>
+                <a href="#" className="text-blue-500 hover:underline">Read more</a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-      <div>
-        <h1 className="text-4xl font-bold">Welcome to DevTales</h1>
-        <p className="text-lg">A place to share your dev stories</p>
-      </div>
-    </main>
+    </div>
   );
 }

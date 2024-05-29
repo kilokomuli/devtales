@@ -1,28 +1,21 @@
 import Link from 'next/link';
 import DevTalesLogo from './dave-logo';
 
-
 export default function Navbar() {
     return (
-        <nav className="flex flex-col md:flex-row md:h-52">
-            <div className="flex flex-row justify-center md:items-center">
-                <Link
-                    className=''
-                    href="/">
-                        <div className="w-32">
-                            <DevTalesLogo />
-                        </div>
+        <nav className="fixed top-0 left-0 flex items-center justify-between p-6 bg-white shadow-md w-full z-50">
+                <Link href="/" className="flex items-center">
+                    <DevTalesLogo className="w-12 h-12" />
+                    <span className="ml-2 text-2xl font-bold text-gray-900">DevTales</span>
                 </Link>
-                <Link className="text-lg font-bold text-gray-800 hover:text-gray-900"
-                    href="/about">
+            <div className="flex space-x-6">
+                <Link href="/about" className="text-lg font-bold text-gray-800 hover:text-gray-900">
                     About
                 </Link>
-                <Link className="text-lg font-bold text-gray-800 hover:text-gray-900 ml-4"
-                    href="/blog">
+                <Link href="/blog" className="text-lg font-bold text-gray-800 hover:text-gray-900">
                     Blog
                 </Link>
-                <Link className="text-lg font-bold text-gray-800 hover:text-gray-900 ml-4"
-                    href="/contact">
+                <Link href="/contact" className="text-lg font-bold text-gray-800 hover:text-gray-900">
                     Contact
                 </Link>
             </div>
