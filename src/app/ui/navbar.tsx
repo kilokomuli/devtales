@@ -14,7 +14,7 @@ export default function Navbar() {
                 <Link href="#about" className="text-lg font-bold text-gray-800 hover:text-gray-900">
                     About
                 </Link>
-                <Link href="/blog" className="text-lg font-bold text-gray-800 hover:text-gray-900">
+                <Link href="#featured" className="text-lg font-bold text-gray-800 hover:text-gray-900">
                     Blog
                 </Link>
                 <Link href="/contact" className="text-lg font-bold text-gray-800 hover:text-gray-900">
