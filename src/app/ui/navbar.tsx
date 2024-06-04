@@ -11,7 +11,7 @@ export default function Navbar() {
                     <span className="ml-2 text-2xl font-bold text-gray-900">DevTales</span>
                 </Link>
             <div className="flex space-x-6">
-                <Link href="/about" className="text-lg font-bold text-gray-800 hover:text-gray-900">
+                <Link href="#about" className="text-lg font-bold text-gray-800 hover:text-gray-900">
                     About
                 </Link>
                 <Link href="/blog" className="text-lg font-bold text-gray-800 hover:text-gray-900">

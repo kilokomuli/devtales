@@ -3,6 +3,7 @@ import Navbar from './ui/navbar';
 import Hero from './ui/hero';
 import Footer from './ui/footer';
 import Newsletter from './ui/newsletter';
+import About from './ui/about';
 
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <About />
         <Newsletter />
       </div>
       <Footer />
