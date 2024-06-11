@@ -3,7 +3,7 @@ import Navbar from './ui/navbar';
 import Hero from './ui/hero';
 import Footer from './ui/footer';
 import Newsletter from './ui/newsletter';
-import About from './ui/about';
+import About from './pages/about';
 import Features from './ui/features';
 
 

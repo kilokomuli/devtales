@@ -1,0 +1,4 @@
+.active {
+    color: #df00f3; /* Change this to your preferred color */
+    border-bottom: 2px solid #0070f3; /* This adds a bottom border to the active link */
+}
