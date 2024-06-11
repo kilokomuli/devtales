@@ -2,7 +2,8 @@
 
 ## Introduction
 
-![Uploading devtales1.png…]()
+![devtales1](https://github.com/kilokomuli/devtales/assets/87370159/ef0b9768-1ca7-4459-ae08-b0cb8caacd2b)
+![features](https://github.com/kilokomuli/devtales/assets/87370159/2337e0d0-b249-43ca-94e2-7f41c63669fe)
 DaveTales is a blog web application where i share my journey and insights with community and was inspired by my passion in web development. It contains of a Navbar, hero section, blog features, about and contact section. You can find the deployed site [here](https://kilokomuli.github.io/devtales/), and the final project blog article [here](link-to-blog-article).
 
 Author(s): [Emma Muli](https://www.linkedin.com/in/emma-kiloko-0b4823229/)
