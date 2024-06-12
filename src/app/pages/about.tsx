@@ -9,7 +9,7 @@ export default function About () {
               </p>
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-4">
         <div className="flex flex-col mb-4 md:mb-0">
-          <h3 className="text-2xl font-bold">Our Team</h3>
+          <h3 className="text-2xl font-bold">Lets Connect</h3>
           <ul className="list-disc list-inside">
             <li>
               <a href="https://www.linkedin.com/in/emma-kiloko-0b4823229/" className="text-blue-500 hover:underline">LinkedIn</a> |
